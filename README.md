@@ -9,31 +9,24 @@ Welcome to the Innogeeks Project, a captivating collection of diverse and dynami
 **Technologies**: ReactJS, JavaScript
 **Repository Link**: [InnogeeksFrontend](https://github.com/innogeeks/InnogeeksFrontend)
 
-### 2. BadgeCraftPro: Automating Event Certificate Generation
+
+### 2. Propeer's Backend:Share Your Updates and Track Progress with the Latest in Development
+**Description**: Propeer Backend is made with technologies like Node.js, GraphQL, Prisma ORM, a scalable app with user authentication (Google OAuth, JWT), real-time data caching (Redis, React-Query), and a PostgreSQL database managed by Supabase. 
+
+**Technologies**: ReactJS, JavaScript
+**Repository Link**: [ProPeers Backend](https://github.com/AdityyaX/Propeers_Backend)
+
+### 3. BadgeCraftPro: Automating Event Certificate Generation
 **Description**: Prepare to be amazed by BadgeCraftPro, a Python-based automation tool that revolutionizes the process of generating personalized certificates and badges for event participants. With its integration with an SMTP server, this tool enables automated email dispatch, reducing administrative tasks by an astounding 70%. The script's efficiency is truly remarkable, capable of handling certificate distribution for over 1,200 participants in a single event.
 
 **Technologies**: Python, SMTP
 **Repository Link**: [BadgeCraftPro](https://github.com/AdityyaX/BadgeCraftPro)
 
-### 3. Achiever API: Secure AWS S3 Image Uploads and Authentication
+### 4. Achiever API: Secure AWS S3 Image Uploads and Authentication
 **Description**: Witness the power of Achiever API, a script designed to seamlessly handle secure AWS S3 bucket authentication and image uploads through a POST API. Additionally, the integration of Route 53 for DNS management ensures a smooth and secure process for all image uploads.
 
 **Technologies**: AWS S3, Route 53, Python
 **Repository Link**: [Achiever_API](https://github.com/AdityyaX/Achiever_API)
-
-
-### 4. This GitHub Actions workflow, named **Check Submissions**, is designed to automate the process of verifying submissions on a GitHub repository. It triggers whenever there is a push to the `master` branch.
-
-**Repository Link**: [CodersPree](https://github.com/InnogeeksOrganization/Coderspree3.0)
-
-1. **OS Strategy Matrix**: The job runs on `ubuntu-latest` using a matrix setup to specify the operating system.
-  
-2. **Steps**:
-   - **Checkout Repository**: Uses `actions/checkout@v2` to check out the repository code.
-   - **Set Up Python**: Configures the Python environment using `setup-python@v2`, specifically setting Python version 3.8.
-   - **Install Dependencies**: Installs the necessary Python packages (`requests` and `mdutils`) to support the script.
-   - **Run Script**: Executes `check_submissions.py` to perform the core task of submission verification.
-   - **Auto-Commit**: Uses `stefanzweifel/git-auto-commit-action@v4` to automatically commit any updates to the repository with a custom commit message ("Update Readme").
 
 This workflow ensures that each submission check is efficiently handled, updates are tracked, and any changes made by the script are automatically committed back to the repository.
 
