@@ -1,4 +1,3 @@
-
 # **Innogeeks Project: Engineering Scalable and Efficient Solutions**  
 
 A collection of innovative projects built for community welfare, tackling diverse challenges with a focus on performance, security, and automation
@@ -35,4 +34,8 @@ Developed an **npm package** with **100+ weekly downloads**, enabling seamless *
 **Tech Stack**: Node.js, NPM  
 🔗 [NPM Package](https://www.npmjs.com/package/git-profile-switcher)  
 
----  
+### **6. Formcrafter Core** – Canvas-Based Drag & Drop Library  
+A **zero-dependency** TypeScript-first drag-and-drop core for building form builders and layout editors. Offers precise **canvas-style placement**, `useDraggable/useDroppable` hooks, and `isDragging` state for advanced UX.
+
+**Tech Stack**: React, TypeScript, HTML5 Drag & Drop  
+🔗 [NPM Package](https://www.npmjs.com/package/formcrafter-core)  
